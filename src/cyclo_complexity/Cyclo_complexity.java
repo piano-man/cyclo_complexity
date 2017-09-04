@@ -62,8 +62,13 @@ public class Cyclo_complexity {
 
                     
                 }
+                if(b2==true)
+                {
+                    
+                
                 flag=1;
                 func_count1++;
+                }
             }
             else if(flag==1)
             {
@@ -92,7 +97,10 @@ public class Cyclo_complexity {
 
                     
                 }
+                if(b5==true)
+                {
                 func_count1++;
+                }
                 
                 
             }
