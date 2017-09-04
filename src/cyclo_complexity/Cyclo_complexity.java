@@ -112,9 +112,12 @@ public class Cyclo_complexity {
         }
         //lol1: \{([^{}]|(?R))*\}
         System.out.println("function count is :"+func_count1);
-        System.out.println(arr[0]+1);
-        System.out.println(arr[1]+1);
-        System.out.println(arr[2]+1);
+        for(int j = 0;j<func_count1;j++)
+        {
+            System.out.println(arr[j]+1);
+            
+        }
+
         
 
     }}
